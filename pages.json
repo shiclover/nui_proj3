@@ -1,14 +1,58 @@
 {
-	"pages": [{
-		"path": "pages/index/index",
-		"style": {
-			"navigationBarTitleText": "uni-ui基础项目"
-		}
-	}],
+	"pages": [
+		{
+            "path" : "pages/home/home",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/cate/cate",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/cart/cart",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" : {}
+        }
+    ],
+	
+	// tabBar list 页面
+	"tabBar":{
+		"selectedColor":"#EFE4B0",
+		"list":[
+			{
+				"pagePath":"pages/home/home",
+				"text":"首页",
+				"iconPath":"static/home1.png",
+				"selectedIconPath":"static/home2.png"
+			},
+			{
+				"pagePath":"pages/cate/cate",
+				"text":"分类",
+				"iconPath":"static/cate1.png",
+				"selectedIconPath":"static/cate2.png"
+			},
+			{
+				"pagePath":"pages/cart/cart",
+				"text":"购物车",
+				"iconPath":"static/cart1.png",
+				"selectedIconPath":"static/cart2.png"
+			},
+			{
+				"pagePath":"pages/my/my",
+				"text":"我的",
+				"iconPath":"static/my1.png",
+				"selectedIconPath":"static/my2.png"
+			}
+		]
+	},
+	
 	"globalStyle": {
-		"navigationBarTextStyle": "white",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#007AFF",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "优选购物",
+		"navigationBarBackgroundColor": "#EFE4B0",
 		"backgroundColor": "#FFFFFF"
 	}
 }
