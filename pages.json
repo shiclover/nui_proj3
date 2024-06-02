@@ -18,6 +18,19 @@
         }
     ],
 	
+	"subPackages":[{
+		"root":"subpkg",
+		"pages":[{
+                    "path" : "goods_detail/goods_detail",
+                    "style" : {}
+                }
+                ,{
+                    "path" : "goods_list/goods_list",
+                    "style" : {}
+                }
+            ]
+	}],
+	
 	// tabBar list 页面
 	"tabBar":{
 		"selectedColor":"#EFE4B0",
